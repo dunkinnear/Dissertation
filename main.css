@@ -1,0 +1,111 @@
+
+html { 
+  background: url(index_files/calve.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    padding: 2em 2em 2em;
+    font-family: calibri, sans-serif;
+    font-size: 16px;
+    color: darkgrey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: calibri, sans-serif;
+    font-weight: 800;
+    line-height: 1.3em;
+}
+
+a {
+    color: #0083e8;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+hr {
+    clear: both;
+}
+
+p {
+    line-height: 150%;
+}
+
+p.caption {
+    clear:both;
+/*    width: 600px;*/
+    max-width: 100%;
+    float: right;
+    color: white;
+    font-size: 12;
+    align: center;
+    padding: 0.5em 0.5em 0em 1em;
+}
+
+img.inline {
+/*    width: 600px;*/
+    max-width: 100%;
+    float: right;
+    margin: 0.5em 0.5em 0em 1em;
+    border: 2px solid white;
+    clear: both;
+}
+
+img.png {
+    margin: 0.5em 0.5em 0em 1em;
+    float: right;
+}
+
+img.header {
+    background: transparent;
+    margin: 1.3em auto;
+    max-width: 100%;
+}
+
+video {
+    background: transparent;
+/*    width: 600px;*/
+    max-width: 100%;
+    margin: 0.5em 0.5em 0em 1em;
+    border: 2px solid white;
+    clear: both;
+    float: right;
+}
+
+
+div.header {
+    margin: auto;
+    background-color:rgba(0,0,0,0.8);
+    max-width: 80%;
+    padding: 10px 20px 10px;
+    
+}
+
+div.container {
+    margin: auto;
+    background-color:rgba(0,0,0,0.8);
+    max-width: 80%;
+    padding: 10px 20px 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+div.footer {
+    margin: auto;
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+    font-size: 12;
+    max-width: 80%;
+    padding: 10px 20px 10px;
+    text-align: center;
+}
